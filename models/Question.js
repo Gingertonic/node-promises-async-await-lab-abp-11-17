@@ -35,8 +35,9 @@ class Question {
         console.log(`...Question ${id} Loaded`) // Do Not Edit
 
         resolve(question)
+        return question
       })
-      return `${question.id}`
+      // return `${Question.id}`
       }, 1500)
 
   }
