@@ -36,7 +36,7 @@ class Question {
 
         resolve(question)
       })
-      return `${question.id}
+      return `${question.id}`
       }, 1500)
 
   }
